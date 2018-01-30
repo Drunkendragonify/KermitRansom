@@ -1,0 +1,10 @@
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.csprojResolveAssemblyReference.cache
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.Form1.resources
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.Properties.Resources.resources
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.csproj.GenerateResource.Cache
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.csproj.CoreCompileInputs.cache
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.exe.config
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.exe
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.pdb
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.exe
+C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.pdb
