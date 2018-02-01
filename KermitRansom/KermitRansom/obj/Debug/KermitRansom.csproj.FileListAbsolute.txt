@@ -8,3 +8,12 @@ C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\bin\Debug\Ker
 C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.pdb
 C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.exe
 C:\Users\wreck\Source\Repos\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.pdb
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.exe.config
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.exe
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.pdb
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.exe
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\bin\Debug\KermitRansom.pdb
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.csprojResolveAssemblyReference.cache
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.Form1.resources
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.Properties.Resources.resources
+C:\Users\samuel.brown\Documents\GitHub\KermitRansom\KermitRansom\KermitRansom\obj\Debug\KermitRansom.csproj.GenerateResource.Cache
