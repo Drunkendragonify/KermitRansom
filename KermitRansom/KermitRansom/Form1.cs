@@ -56,7 +56,7 @@ namespace KermitRansom
         private void KeyPressAction(object sender, KeyEventArgs e)
         {
             e.SuppressKeyPress = true;
-            System.Threading.Thread.Sleep(666);
+            System.Threading.Thread.Sleep(100);
             Cursor.Position = new System.Drawing.Point(1000,0);
             Cursor.Position = new Point(Cursor.Position.X -0, Cursor.Position.Y -0);
         }
